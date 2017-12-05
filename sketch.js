@@ -37,13 +37,12 @@ function preload() {
   Poke6 = loadImage("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png")
   Poke3 = loadImage("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png")
   Poke9 = loadImage("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png")
-
-
-
 }
+
 function makeBackground() {
   background(50, 100, 50);
 }
+
 function keyPressed() {
   if (keyCode === UP_ARROW) {
     radius = radius + 10;
