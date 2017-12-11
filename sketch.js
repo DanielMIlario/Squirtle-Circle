@@ -1,7 +1,7 @@
 var x = 0;
 var y = 0;
-var myCanvasWidth = 1000;
-var myCanvasHeight = 1000;
+var myCanvasWidth = 2000;
+var myCanvasHeight = 2000;
 var Squi;
 var Pokeball;
 var radius = 100;
@@ -60,7 +60,7 @@ function draw() {
   clear();
   background(50, 100, 50)
   noFill();
-  image(Pokeball, centerX - 248, centerY - 265);
+  image(Pokeball, centerX, centerY);
   noFill();
   translate(centerX, centerY);
   rotate (angle);
