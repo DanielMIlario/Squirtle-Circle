@@ -1,7 +1,7 @@
 var x = 0;
 var y = 0;
-var myCanvasWidth = 2000
-var myCanvasHeight = 2000
+var myCanvasWidth = screen.width;
+var myCanvasHeight = screen.height;
 var Squi;
 var Pokeball;
 var radius = 100;
