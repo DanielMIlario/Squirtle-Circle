@@ -60,7 +60,7 @@ function draw() {
   clear();
   background(50, 100, 50)
   noFill();
-  image(Pokeball, centerX, centerY);
+  image(Pokeball, centerX - 248, centerY - 265);
   noFill();
   translate(centerX, centerY);
   rotate (angle);
